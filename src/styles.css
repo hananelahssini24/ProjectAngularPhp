@@ -1,0 +1,7 @@
+@import "node_modules/ag-grid-community/styles/ag-grid.css";
+@import "node_modules/ag-grid-community/styles/ag-theme-alpine.css";
+.header-cell {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}

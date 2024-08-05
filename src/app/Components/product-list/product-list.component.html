@@ -1,0 +1,34 @@
+<!-- <div class="container">
+<h1 class="text-center text-danger">Consommer API</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name Product</th>
+            <th>Description Product</th>
+            <th>Price Product</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let variable of productList">
+            <td >{{variable.p_name}}</td>
+            <td>{{variable.p_description}}</td>
+            <td>{{variable.p_price}}</td>
+        </tr>
+    </tbody>
+</table> 
+
+</div> -->
+
+<div class="row">
+    <div class="col-12 p-5">
+      <ag-grid-angular
+        style="width: 100%; height: 500px;"
+        class="ag-theme-alpine"
+        [rowData]="rowData"
+        [columnDefs]="columnDefs"
+        [gridOptions]="gridOptions"
+      >
+      </ag-grid-angular>
+    </div>
+  </div>
+  
